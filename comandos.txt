@@ -1,0 +1,2 @@
+sqlldr userid=system/root
+D:\Archivos Varios\2022\Primer Semestre\Bases\BD1_Proyecto1_201900853\control.ctl
