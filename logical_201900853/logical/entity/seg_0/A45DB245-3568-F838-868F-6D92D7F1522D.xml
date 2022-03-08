@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A45DB245-3568-F838-868F-6D92D7F1522D" name="Evaluacion">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-08 02:41:21 UTC</createdTime>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<engineerTo>
+<item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_evaluacion" id="AA5403AC-4DE4-FEC9-7B0C-790C9AA741DD">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-08 02:41:30 UTC</createdTime>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<engineerTo>
+<item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empleado" id="815919C6-7A13-045F-4B62-672A1739E3B4">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-08 02:41:48 UTC</createdTime>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<engineerTo>
+<item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="0474A98D-02FC-583A-454C-C029F597D5DA">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-08 02:43:23 UTC</createdTime>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<engineerTo>
+<item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tratamiento_aplicado" id="826BD847-6346-EC0A-C60D-4950055E8588">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-08 02:43:34 UTC</createdTime>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<engineerTo>
+<item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_diagnostico_sintoma" id="086843DF-A4A6-5400-6CA1-A7EB6C825296">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-08 02:44:14 UTC</createdTime>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<engineerTo>
+<item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sintoma_paciente" id="3BDF97DB-EC9B-8EA7-50D1-FD0E3841E2CA">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-08 02:44:49 UTC</createdTime>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<engineerTo>
+<item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tratamiento" id="CD892579-0855-9549-057D-14EE3226EFC0">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-08 02:48:00 UTC</createdTime>
+<generatorID>64CF41F7-ADF4-416C-F25A-629E1A9AA360</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<engineerTo>
+<item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
+</engineerTo>
+<referedAttribute>F454F449-E98B-F41E-E989-F3AAB61F7A60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sintoma" id="E249E12A-8B89-E534-547B-BE0DB5BD539B">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-08 02:48:05 UTC</createdTime>
+<generatorID>C786BBAD-0EA0-AB6A-3CA6-9EB8BBED352D</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<engineerTo>
+<item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
+</engineerTo>
+<referedAttribute>91522D4F-F7D0-9269-449C-B224632F046B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_diagnostico" id="81EB2C1C-2F65-9119-5625-23227002CFDD">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-08 02:48:16 UTC</createdTime>
+<generatorID>8AB5BAC2-C92A-E69D-C8D2-A6A34FBAE129</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<engineerTo>
+<item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
+</engineerTo>
+<referedAttribute>5D07460F-94A0-92DC-D0CB-0344EF4DA122</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4AFFE0B1-1AD5-720D-4239-C692E01560AD" name="Evaluacion PK">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-08 02:41:39 UTC</createdTime>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<engineerTo>
+<item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA5403AC-4DE4-FEC9-7B0C-790C9AA741DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

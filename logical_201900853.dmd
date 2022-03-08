@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="logical_201900853" id="C50CDA44-820B-A20E-F59F-022B208DC711" version="3.5">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-08 02:00:46 UTC</createdTime>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C50CDA44-820B-A20E-F59F-022B208DC711</designId>
+</OSDM_Design>
