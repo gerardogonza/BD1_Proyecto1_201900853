@@ -50,8 +50,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="F0B6D8DE-A1A7-27C3-135C-D936BE41B3EA">
 <createdBy>jerry</createdBy>
@@ -134,20 +135,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_direccion" id="08E8D960-0B07-B81B-5056-C09089869B05">
-<createdBy>jerry</createdBy>
-<createdTime>2022-03-08 02:46:16 UTC</createdTime>
-<generatorID>37EE0471-3B98-AB8A-8C05-54473C9A1D51</generatorID>
-<ownerDesignName>logical_201900853</ownerDesignName>
-<engineerTo>
-<item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
-</engineerTo>
-<referedAttribute>8241EFA7-3BE8-4B73-9D1D-67C22385C632</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_genero" id="5DE41820-1C09-96DD-E942-ACF4C4DC91C0">
 <createdBy>jerry</createdBy>

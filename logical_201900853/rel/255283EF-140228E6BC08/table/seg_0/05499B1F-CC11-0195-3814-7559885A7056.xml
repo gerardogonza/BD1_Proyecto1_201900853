@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05499B1F-CC11-0195-3814-7559885A7056" name="Empleado">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>7A374DE9-A41B-E5CD-23E1-31137710245D</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="A2D83469-1164-DFD6-56B4-8D47BB355353">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>AD15C414-E99B-1641-E6C5-875F4F4FCDDD</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_empleado" id="7AF981CE-8FDC-73EE-86BA-03EFBE5E0267">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>2FF47E88-5F86-1AE8-075B-63A86BF418A0</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_empleado_2" id="8EE60240-2E9D-BE7D-5D14-6763158C23D4">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>2F97696D-9803-442C-B3EA-E3E08D893867</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_empleado" id="7BE9A2D4-F85F-98E5-CA34-753388A5F676">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>C89FAFDD-3506-5CC3-8A94-4B6C66FAD4CE</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="E8ABDD70-5B25-AA6C-C3B1-5B508E35342A">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>AE89F15D-8319-AA27-EB62-8BADECC5E149</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_naciemiento" id="EED499B4-DCE7-6657-5FEB-FC7AD0E5DA06">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>626F8E8C-193A-F37E-B3ED-8AAC7B6D71EF</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo_empleado" id="28D35AA0-D5AC-C782-AF42-6CF11B24485D">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>1D16A336-6AF8-9D2A-9379-AE61B1CF77C9</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="FE28BBC7-690F-99F7-7C54-0B7708F99B40">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>68CF990F-1A5D-681F-2F96-AAE7A873D837</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Genero_id_genero" id="DE370C48-3DD9-F190-9FFA-90F0302AD43F">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>01C028FB-6126-6A8E-8148-4693320E3F66</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8A89AA4-4C64-F713-DF34-80CB56458F5A" referredColumn="AFD529BE-F90C-0FBD-5D27-E01FC9F54F48"/>
+</associations>
+</Column>
+<Column name="Titulo_Empleado_id_titulo" id="E201EB8A-4D47-6CEE-35AE-9748B53DEB04">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>5AF40F75-41E9-E840-FA80-4FE593A36426</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04C60586-D098-9E7F-9085-EA6677047D27" referredColumn="9C081B0F-C835-E3DB-E005-99D7D527D5AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC7E349B-3BA6-FD4C-DAA8-EF879F340B7D" name="Empleado_PK">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>A4E36EE0-232B-BD60-13B4-BF74B72DDC1E</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2D83469-1164-DFD6-56B4-8D47BB355353"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB6C01AE-E06E-F9D6-C6E8-9C8AAD440A1D" name="Empleado_Genero_FK">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>3655A96F-8DD0-B9D9-3D67-2907E0983114</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE370C48-3DD9-F190-9FFA-90F0302AD43F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CF039E2-5FCE-AB42-C095-67FB429181D5" name="Empleado_Titulo_Empleado_FK">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>F821EBE8-BF01-2396-99C5-F66A8C3EBDB7</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E201EB8A-4D47-6CEE-35AE-9748B53DEB04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

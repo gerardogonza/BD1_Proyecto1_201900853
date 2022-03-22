@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB66C633-02F5-A91F-57A8-E1E6963F5457" name="Paciente">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>9314A730-F5B2-15AB-BB3E-A8381E864E29</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_paciente" id="7609188B-02D7-8C26-6F8E-39A66BB383B5">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>4972077B-CC3E-2D45-426C-EA58BAB78AAC</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="6FB04796-BE15-B109-DCB3-A0DD18684369">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>30479DB7-AD23-B962-6ACA-D73A8D793C79</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="6EE88E25-C6FF-9272-F080-03638B2C02A5">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>490A7246-F444-AF39-7E81-CAC1734D210D</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3FCCE4D1-E1E3-EB5C-3629-0E5B34C7BC28">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>F0B6D8DE-A1A7-27C3-135C-D936BE41B3EA</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="altura" id="CBA2A944-5E45-1BDF-B5AF-EFFE813A916C">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>6AD034DB-1C7C-08C4-D520-FE626C7EF4C4</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_paciente" id="CB72F259-001A-1260-BB9F-5B66A0DCC1DB">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>4F53A666-4602-B201-EA2B-B6E65E372C1B</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso" id="A1AD54B3-048C-19AD-D014-229F5CAB252A">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>8BED0314-C29D-C70A-A444-86852B44C0A5</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="1154F2E2-6242-873F-CACC-49A2BECA373F">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>2C857C15-C82A-F46E-2549-44DB1892091F</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_naciemineto" id="A084022D-269F-732A-94A9-F2B1D78434E4">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>6CB07B89-770F-AF61-1E64-15E57BA243F0</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Genero_id_genero" id="B8F2794F-2092-5291-E4CD-CD6A20F7731F">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>5DE41820-1C09-96DD-E942-ACF4C4DC91C0</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C59FB87-7B08-FD7C-475B-F399055D9BCB" referredColumn="AFD529BE-F90C-0FBD-5D27-E01FC9F54F48"/>
+</associations>
+</Column>
+<Column name="Evaluacion_id_evaluacion" id="6BDDFA8F-1CF9-88A8-63D1-D0CF479C0CF0">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>9FB7A483-1333-7598-7155-84F45F68A4FD</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DA79F11-0EAF-72BB-CFD2-88ADF8C1CDE0" referredColumn="449B4D1E-2462-1037-9007-F7CEEA050E0F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2B5A713-A067-0701-A791-F098E8D0377A" name="Paciente_PK">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>CBC0FF06-53C6-5960-D5D2-53C5CF247DB3</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7609188B-02D7-8C26-6F8E-39A66BB383B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DFBB164-BA66-66DA-BBE8-13A335041BB4" name="Paciente_Genero_FK">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>B5646852-A062-A64A-9823-1AC981E5EF45</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8F2794F-2092-5291-E4CD-CD6A20F7731F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E39994A3-49B5-1C0E-8E09-6CEF436AEB92" name="Paciente_Evaluacion_FK">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>1009E2A1-69F0-417E-92CF-6DC46B37E479</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BDDFA8F-1CF9-88A8-63D1-D0CF479C0CF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C29E7898-B7FC-888A-C23F-18A29477AE33" name="Sintoma_Paciente">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>28836B2C-38F4-7CFF-3A7B-65F1493206ED</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sintoma" id="C181337C-6C40-94EA-E487-01355792C1FD">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>91522D4F-F7D0-9269-449C-B224632F046B</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sintoma" id="BA2414BE-9170-53F9-C9D4-67C406965F0D">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>5F281124-06C0-3932-A4B5-C63E8716FD13</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02ECBEE7-CF6E-0429-B88D-E228759277EA" name="Sintoma_Paciente_PK">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:14:52 UTC</createdTime>
+<generatorID>2AF943BE-8061-D84D-E9C9-5123A1E9E067</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C181337C-6C40-94EA-E487-01355792C1FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

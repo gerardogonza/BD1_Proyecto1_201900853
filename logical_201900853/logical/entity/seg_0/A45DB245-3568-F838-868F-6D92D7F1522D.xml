@@ -134,6 +134,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_empleado1" id="77B24F95-39C1-C19F-9BCA-65F975C20679">
+<createdBy>jerry</createdBy>
+<createdTime>2022-03-21 21:12:52 UTC</createdTime>
+<generatorID>AB766434-6274-A607-D9AB-6BC9F598359D</generatorID>
+<ownerDesignName>logical_201900853</ownerDesignName>
+<engineerTo>
+<item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
+</engineerTo>
+<referedAttribute>AD15C414-E99B-1641-E6C5-875F4F4FCDDD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="4AFFE0B1-1AD5-720D-4239-C692E01560AD" name="Evaluacion PK">

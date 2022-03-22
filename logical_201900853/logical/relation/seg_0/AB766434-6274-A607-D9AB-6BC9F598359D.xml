@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="18E7D4FC-0BBF-D1A8-BAD4-AE66CD1A11F7">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="AB766434-6274-A607-D9AB-6BC9F598359D">
 <createdBy>jerry</createdBy>
-<createdTime>2022-03-08 02:46:04 UTC</createdTime>
+<createdTime>2022-03-21 21:12:52 UTC</createdTime>
 <ownerDesignName>logical_201900853</ownerDesignName>
 <engineerTo>
 <item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
 </engineerTo>
-<sourcePk>3C749540-C4F0-AA2D-8197-B5027C088569</sourcePk>
+<sourcePk>A4E36EE0-232B-BD60-13B4-BF74B72DDC1E</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>F4CA19FC-2B31-EC53-414C-183943391360</sourceEntity>
+<sourceEntity>7A374DE9-A41B-E5CD-23E1-31137710245D</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>7A374DE9-A41B-E5CD-23E1-31137710245D</targetEntity>
+<targetEntity>A45DB245-3568-F838-868F-6D92D7F1522D</targetEntity>
 <transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
+<deleteRule>NO ACTION</deleteRule>
 </Relation>

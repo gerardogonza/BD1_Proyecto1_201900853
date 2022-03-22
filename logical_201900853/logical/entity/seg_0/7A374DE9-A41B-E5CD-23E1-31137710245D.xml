@@ -119,8 +119,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_genero" id="01C028FB-6126-6A8E-8148-4693320E3F66">
 <createdBy>jerry</createdBy>
@@ -136,20 +137,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_direccion" id="727D5E5E-BE9D-A4D9-6AE4-CA072EE0EE7F">
-<createdBy>jerry</createdBy>
-<createdTime>2022-03-08 02:46:04 UTC</createdTime>
-<generatorID>18E7D4FC-0BBF-D1A8-BAD4-AE66CD1A11F7</generatorID>
-<ownerDesignName>logical_201900853</ownerDesignName>
-<engineerTo>
-<item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
-</engineerTo>
-<referedAttribute>8241EFA7-3BE8-4B73-9D1D-67C22385C632</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_titulo" id="5AF40F75-41E9-E840-FA80-4FE593A36426">
 <createdBy>jerry</createdBy>
 <createdTime>2022-03-08 02:46:57 UTC</createdTime>
@@ -159,20 +146,6 @@
 <item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
 </engineerTo>
 <referedAttribute>7FD4E990-EE2F-ACC0-63AB-01130DDDF9C7</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_evaluacion" id="408097CF-6979-C651-8A2C-87066B3EE60B">
-<createdBy>jerry</createdBy>
-<createdTime>2022-03-08 02:47:38 UTC</createdTime>
-<generatorID>046B3A09-66A0-0511-C2C7-844FABF23B84</generatorID>
-<ownerDesignName>logical_201900853</ownerDesignName>
-<engineerTo>
-<item key="255283EF-5629-7365-21E9-140228E6BC08" value="true"/>
-</engineerTo>
-<referedAttribute>AA5403AC-4DE4-FEC9-7B0C-790C9AA741DD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
